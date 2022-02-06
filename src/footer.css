@@ -1,0 +1,134 @@
+.footer{
+    height: 380px ;
+    width: 100%;
+    background-color: #063D64;
+    color: #fff;
+  
+}
+.a1{
+    color: #fff ;
+    display: flex;
+    text-decoration: none;
+    padding:3px;
+    font-size: 18px;
+}
+.footer-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-part11{
+    display: flex;
+}
+.footer-para{
+    text-align: start;
+    height:166px;
+    width:335px;
+}
+.footer-part2{
+    margin:50px 50px 30px 10px;
+}
+.footer-part3{
+    margin:50px 70px 30px 18px;
+}
+.footer-part1{
+    margin:50px 80px 30px -5%;
+}
+.footer-part4{
+    margin-left:80px;
+    margin-top: 50px;
+}
+.footer-image-p{
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.social-logo{
+    display: flex;
+}
+.logo-fb{
+   margin:1px; 
+   margin-right: 8px;
+   margin-top: -3px;
+   margin-bottom: 20px;
+}
+.follow{
+    margin-top:24px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.message-logo{
+    display: flex;
+}
+.cover-logo{
+    margin-top:20px;
+    margin-left:5px;
+}
+.footer-para{
+    margin-top:-1px;
+}
+.footer-para{
+    font-size: 18px;
+}
+.message{
+    font-size: 18px;
+}
+.color{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    padding:3px;
+    font-size: 18px;
+}
+.p-3{
+    margin-top: 40px;
+    display: flex;
+}
+.ml-auto{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    margin-top: -20px;
+    justify-content: space-between;
+}
+.navbar-left{
+    margin: -5px 20px 0px 10px;
+}
+.navbar-right{
+    margin: 35px 50px 10px 30px;
+}
+.link{
+    margin:30px 10px 10px 10px;
+    font-size: 18px;
+    color: #063D64;
+}
+.link1,.link11{
+    margin:10px;
+    font-size: 18px;
+    color: #063D64;
+}
+.link11{
+    border: none;
+}
+.link111{
+    margin-left: -10px;
+    margin:30px;
+    width:245px;
+    height:40px;
+    background-color: #EEF1F4;
+    border: none;
+    border-radius: 30px;
+}
+.search-icon{
+    margin:30px;
+    width:30px;
+    background-color: #EEF1F4;
+    display: flex;
+}
+.search-bar{
+    display: flex;
+}

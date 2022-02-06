@@ -1,38 +1,144 @@
-.App {
+.flip-card {
+  background-color: transparent;
+  width: 288px;
+  height: 322px;
+  perspective: 1000px;
+  border-radius: 24px;
+  margin:20px 10px 50px 100px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 24px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #062663;
+  color: black;
+  border-radius: 24px ;
+}
+
+.flip-card-back {
+  border-radius: 24px ;
+  background-color: #062663;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-image{
+  border-radius:24px 24px 0px 10px;
+}
+.flip-card-base{
+  color: white;
+  margin-top: 5px;
+}
+.service-flip-flex{
+  display: grid;
+ 
+  margin:10px 100px 30px 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.service-p{
+padding:2px 50px 50px 50px;
+}
+.service-h1{
+  text-align: center;
+  padding: 50px 10px 2px 10px;
+}
+.heading-service{
+  margin-left: 160px;
+}
+
+.servic-we-offer{
+  text-align:center;
+}
+.serice-part-one{
+  display: flex;
+  justify-content: center;
+}
+.service-we-offer-card{
+  height:220px;
+  width:1044px;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  background-color:#fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.13);
+  border-radius: 12px;
+}
+.service-div-flex,.service-choose-button{
+text-align: center;
+display: flex;
+justify-content: center;
+}
+.display-flex{
+  display:flex;
+}
+.buttonba{
+  display: flex;
+  justify-content: center;
+}
+.service-choose-button{
+  display: flex;
+  justify-content: center;
+}
+.service-part-two{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+ 
+}
+.buttonone{
+  background-color:#062663;
+  color: aliceblue;
+  width:334px;
+  height: 73px;
+  border: none;
+}
+.button-p{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown{
+  width:189px;
+  height:46px;
+  padding:10px
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service-dropdown{
+  padding:10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gold-button{
+  padding-top: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.gold-button-p{
+  width:279px;
+  height: 46px;
+  background-color: #FFCC16;
+  color: #062663;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 749px){
+  .service-flip-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px 60px 50px 60px;
   }
 }

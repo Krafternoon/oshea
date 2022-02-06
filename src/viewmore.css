@@ -1,0 +1,44 @@
+.vm-img{
+    width: 100%;
+}
+.vm-image{
+margin-top: -50px;
+margin-bottom:30px;
+display:flex;
+justify-content: center;
+}
+.vm-pagethree{
+    display: flex;
+    justify-content: center;
+}
+.margin-viewcard{
+    margin:30px;
+}
+.viewmore-h1{
+    text-align: center;
+}
+.ptag{
+    text-align: center;
+    padding:0px 25% 0px 25%;
+    font-family: 'Times New Roman', Times, serif;
+    color:#063D64;
+    line-height: 20px;
+}
+.vm-pagefour{
+    margin-bottom: 15%;
+}
+.vm-pagetwo,.vm-pagethree,.vm-pageone{
+    margin-bottom:7%;
+}
+.vm-button{
+width:390px;
+height:87px;
+color:#fff;
+border: none;
+background-color: #063D64;
+font-size: 24px;
+font-weight: bold;
+}
+.contact-us{
+    margin-top: -7%;
+}

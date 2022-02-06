@@ -1,0 +1,281 @@
+.division{
+    height:300px;
+    width:200px;
+    background-color: blue;
+    margin-left: 180px;
+    margin-top:300px;
+}
+.background-image{
+  margin-top:-200px;
+}
+.kitchen-pic{
+float:right;
+margin-top:90px;
+}
+.centered {
+  height:50px;
+  width:50px;
+  background-color:pink;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flip-card-home {
+  background-color: transparent;
+  width:380px;
+  height:456px;
+  perspective: 1000px;
+  border-radius: 24px;
+  margin:20px 10px 100px 100px;
+}
+
+.flip-card-inner-home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 24px;
+}
+
+.flip-card-home:hover .flip-card-inner-home{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-home, .flip-card-back-home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-home {
+  background-color: #062663;
+  color: black;
+  border-radius: 24px ;
+}
+
+.flip-card-back-home {
+  border-radius: 24px ;
+  background-color: #062663;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-image-home{
+  width:380px;
+  height:456px;
+  border-radius:24px 24px 0px 0px;
+}
+.flip-card-base-home{
+  color: white;
+  margin-top: 5px;
+}
+.service-flip-flex-home{
+  display: grid;
+ 
+  margin:10px 100px 30px 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.service-p-home{
+padding:2px 50px 50px 50px;
+}
+.service-h1-home{
+  text-align: center;
+  padding: 50px 10px 2px 10px;
+}
+.homepagethree{
+  width:1231px;
+  margin-left: 18.9%;
+  height:752px;
+  background-color:#062663;
+}
+.homepage-flex-one{
+  display:flex;
+}
+.white-card{
+  height:220px;
+  width:168px;
+  background-color: aliceblue;
+  margin:10px 10px 10px 10px;
+}
+.homepagethree-small-card{
+  display: flex;
+  margin-top: 50px;
+}
+.people-image{
+  float: left;
+  margin-left:-40%;
+  margin-top: 70px;
+}
+.homepagethree-flex-two{
+  margin-left:-25%;
+  margin-top: 90px;
+}
+.white-card-h3{
+  text-align: center;
+  margin-top:7px;
+}
+.white-card-para{
+  text-align: center;
+}
+.white-card-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.content-h1{
+  color:#fff;
+  width:514px;
+  margin-left: -10px;
+}
+.content-p{
+  color:#fff;
+  width:450px;
+  margin-right: -10px;
+}
+.homepagefive{
+height:619px;
+background-color: #FFCC16;
+width:1440;
+}
+.home-five-flex-one{
+  display: flex;
+  margin-top: 40px;
+}
+.project-head{
+width:282px;
+height:108px;
+margin:20px;
+}
+.project-para{
+width:420px;
+height:107px;
+margin:20px;
+
+}
+.project{
+  margin-left:8%;
+  margin-top:120px;
+
+}
+.home-five-flex-one{
+  margin-left: 40px;
+}
+.image-one{
+  float: left;
+}
+.one-card-home{
+  height: 300px;
+  width:100px;
+  background-color: #062663;
+  margin-bottom: -90px;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+.group{
+margin-left: 23.3%;
+}
+.float-left{
+  float: left;
+}
+
+.text-block{
+  position: absolute;
+  bottom: 105px;
+  left: 22px;
+  background-color:#062663;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top:-30%;
+  height:481px;
+  width:470px;
+  border-radius: 16px;
+}
+.text-block-h1{
+  text-align: justify;
+}
+.text-block-h1{
+  height:144px;
+  width:338px;
+  margin:40px 1px 1px 67px;
+  line-height:38px ;
+}
+.text-block-p{
+  width:333px;
+  text-align:start;
+  line-height: 24px;
+  height:144px;
+  margin:1px 1px 1px 67px;
+}
+.first-golden-button{
+  width:393px;
+  height:60px;
+  color: #062663;
+  background-color: #FFCC16;
+  border: none;
+  font-size:20px ;
+}
+.first-button{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.adjust{
+  display: flex;
+}
+.flex-button{
+  display: flex;
+  justify-content: center;
+}
+.button-service{
+  padding:9px;
+}
+.feature {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 288px;
+  height:274px;
+  margin-top: 200px;
+}
+
+.feature-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.homepageone{
+  margin-top:5px;
+}
+.grid-feature{
+  display: grid;
+  margin:-130px 10px 30px 70px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.f-project{
+  margin-top: 40px;
+  text-align: center;
+}
+.homepagesix{
+  margin-top: -5%;
+}
+.homepagefive{
+  margin-top:100px;
+  margin-bottom: 15%;
+}
+.h2-low{
+  margin-top:10%;
+}
+.hello{
+  text-align: center;
+}
+.homepagetwo{
+  margin-top: 5%;
+}

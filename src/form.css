@@ -1,0 +1,83 @@
+.user-phone-email{
+    display: flex;
+}
+.form-form{
+    border-radius: 24px;
+    width:593px;
+    height:749px;
+    background-color: #fff;
+   
+}
+.heading-blue{
+    border-radius:16px 16px 0px 0px;
+    width:593px;
+    height:84px;
+    background-color:#063D64;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.first-name,.second-name{
+    width:206px;
+    height:54px;
+    border:1px solid #3A1BA3;
+    margin:10px;
+    border-radius: 8px;
+}
+.service-dropdown2,.service1{
+    width:206px;
+    height:54px;
+    border:1px solid #3A1BA3;
+    margin:10px;
+    border-radius: 8px;
+}
+.form-dropdown{
+    display: flex;
+}
+.phone,.email{
+    width:206px;
+    height:54px;
+    border:1px solid #3A1BA3;
+    margin:10px;
+    border-radius: 8px;
+}
+.textarea{
+    width:488px;
+    height:96px;
+    border:1px solid #3A1BA3;
+    margin:10px;
+    border-radius: 8px;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+.user-name,.user-phone-email{
+   display: flex;
+   justify-content: center;
+}
+.css-name{
+    margin-bottom:20px;
+}
+.text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textarea-project{
+    margin-left: 50px;
+}
+.user-text{
+    margin-top: 20px;
+}
+.namename{
+    margin-left: 70px;
+}
+.form{
+    margin-left:140px;
+    border-radius: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.13);
+}
+.placeholder{
+margin-right:10px;
+}
